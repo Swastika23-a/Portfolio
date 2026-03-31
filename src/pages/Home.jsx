@@ -74,7 +74,45 @@ export default function Home() {
               animate={{ y: [0, -10, 0] }}
               transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
             />
+
+            <div className="floating-card card-one">Creative UI</div>
+            <div className="floating-card card-two">Backend Focus</div>
           </div>
+        </motion.div>
+      </section>
+
+      <section className="home-lower-grid">
+        <motion.div
+          className="feature-panel"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.55 }}
+          viewport={{ once: true }}
+        >
+          <p className="section-tag">What I Do</p>
+          <h3>From ideas to working digital solutions</h3>
+          <p>
+            I work on software projects that combine clean design, practical
+            development, and strong functionality. My interests include backend
+            systems, authentication, responsive UI, and problem solving.
+          </p>
+        </motion.div>
+
+        <motion.div
+          className="feature-panel"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.55, delay: 0.08 }}
+          viewport={{ once: true }}
+        >
+          <p className="section-tag">Quick Highlights</p>
+          <ul className="highlight-list">
+            <li>Web Applications</li>
+            <li>Backend Development</li>
+            <li>Authentication Systems</li>
+            <li>Mobile App Projects</li>
+            <li>Responsive Interfaces</li>
+          </ul>
         </motion.div>
       </section>
     </PageWrapper>

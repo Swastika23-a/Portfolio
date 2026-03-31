@@ -4,7 +4,7 @@ export default function Layout() {
   return (
     <div className="site">
       <header className="navbar">
-        <div className="logo">ST Swastika</div>
+        <div className="logo"> Swastika</div>
 
         <nav>
           <NavLink to="/">Home</NavLink>
