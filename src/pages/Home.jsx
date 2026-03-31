@@ -22,14 +22,11 @@ export default function Home() {
           </h1>
 
           <h2 className="hero-subtitle">
-            Building modern digital experiences across web, backend, software,
-            and application-focused projects.
+           Crafting responsive web applications with a focus on frontend development, user experience, and reliable backend integration
           </h2>
 
           <p className="hero-text">
-            I enjoy turning ideas into practical solutions. My work focuses on
-            clean interfaces, secure systems, backend logic, and projects that
-            solve real-world problems with strong design and functionality.
+           I enjoy transforming ideas into real, user-friendly web applications. My work focuses on clean UI design, responsive layouts, smooth user experience, and building systems that are both functional and reliable.
           </p>
 
           <div className="hero-actions">
@@ -107,12 +104,12 @@ export default function Home() {
         >
           <p className="section-tag">Quick Highlights</p>
           <ul className="highlight-list">
-            <li>Web Applications</li>
-            <li>Backend Development</li>
-            <li>Authentication Systems</li>
-            <li>Mobile App Projects</li>
-            <li>Responsive Interfaces</li>
-          </ul>
+  <li>Modern Web Applications</li>
+  <li>Frontend Development &amp; UI Design</li>
+  <li>Responsive & Mobile-Friendly Interfaces</li>
+  <li>Backend Systems &amp; Authentication</li>
+  <li>Real-World Project Development</li>
+</ul>
         </motion.div>
       </section>
     </PageWrapper>

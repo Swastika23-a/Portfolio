@@ -7,20 +7,30 @@ export default function Contact() {
         <p className="section-tag">Contact</p>
         <h1 className="section-title">Let’s connect</h1>
         <p className="section-text">
-          I’m open to internships, trainee opportunities, junior roles, and
-          collaborative projects in software, backend, web, and app-related work.
+          Open to internships, trainee opportunities, junior roles, and collaborative projects.
         </p>
 
-        <div className="contact-grid">
-          <a href="mailto:thapaswastika0@gmail.com" className="contact-item">
-            <strong>Email</strong>
-            <span>thapaswastika0@gmail.com</span>
-          </a>
+        <form
+          action="https://formspree.io/f/xxxxabcd"
+          method="POST"
+          className="contact-form"
+        >
+          <input type="text" name="name" placeholder="Your name" required />
+          <input type="email" name="email" placeholder="Your email" required />
+          <textarea name="message" rows="6" placeholder="Your message" required></textarea>
+          <button type="submit" className="btn btn-solid">Send Message</button>
+        </form>
 
+        <div className="contact-grid">
           <div className="contact-item">
             <strong>Phone</strong>
             <span>9864673379</span>
           </div>
+
+          <a href="mailto:thapaswastika0@gmail.com" className="contact-item">
+            <strong>Email</strong>
+            <span>thapaswastika0@gmail.com</span>
+          </a>
 
           <a
             href="https://github.com/Swastika23-a"
